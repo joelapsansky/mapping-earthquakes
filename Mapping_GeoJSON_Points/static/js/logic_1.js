@@ -3,7 +3,10 @@
 =======
 // Add console.log to check to see if our code is working.
 <<<<<<< HEAD:Mapping_GeoJSON_Points/static/js/logic_1.js
+<<<<<<< HEAD:Mapping_GeoJSON_Points/static/js/logic_1.js
 >>>>>>> 8c4a7031ab4f3f5ba616db0877736b99499834a6:Mapping_GeoJSON_Points/static/js/logic_1.js
+=======
+>>>>>>> 8c4a7031ab4f3f5ba616db0877736b99499834a6:Mapping_GeoJSON_Polygons/static/js/logic.js
 =======
 >>>>>>> 8c4a7031ab4f3f5ba616db0877736b99499834a6:Mapping_GeoJSON_Polygons/static/js/logic.js
 console.log("working");
