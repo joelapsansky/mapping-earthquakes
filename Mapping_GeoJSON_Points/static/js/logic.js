@@ -88,4 +88,3 @@ d3.json(airportData).then(function(data) {
     }
   }).addTo(map);
 });
-
