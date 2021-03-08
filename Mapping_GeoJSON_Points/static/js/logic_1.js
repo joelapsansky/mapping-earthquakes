@@ -1,4 +1,8 @@
+<<<<<<< HEAD:Mapping_GeoJSON_Polygons/static/js/logic.js
 // Add console.log to check to see if our code is working
+=======
+// Add console.log to check to see if our code is working.
+>>>>>>> 8c4a7031ab4f3f5ba616db0877736b99499834a6:Mapping_GeoJSON_Points/static/js/logic_1.js
 console.log("working");
 
 // Create the map object with a center and zoom level
