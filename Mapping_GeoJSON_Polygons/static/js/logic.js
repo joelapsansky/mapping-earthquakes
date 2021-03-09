@@ -66,5 +66,9 @@ let torontoHoods = "https://raw.githubusercontent.com/joelapsansky/mapping-earth
 d3.json(torontoHoods).then(function(data) {
   console.log(data);
   //Creating a GeoJSON layer with the retrieved data.
-  L.geoJSON(data).addTo(map);
+  L.geoJSON(data, {
+    color: "purple",
+    fillColor: "white",
+    fillOpacity: 0.75
+  }).addTo(map);
 });
