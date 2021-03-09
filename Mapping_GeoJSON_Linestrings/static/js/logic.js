@@ -5,7 +5,7 @@ console.log("working");
 // Create the map object with a center and zoom level
 
 // Accessing the Toronto Data
-let torontoData = "https://raw.githubusercontent.com/<GitHub_name>/Mapping_Earthquakes/main/torontoRoutes.json";
+let torontoData = "https://raw.githubusercontent.com/joelapsansky/mapping-earthquakes/main/torontoRoutes.json";
 
 // Create the tile layers
 let dark = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/dark-v10/tiles/{z}/{x}/{y}?access_token={accessToken}', {
@@ -49,5 +49,5 @@ d3.json(torontoData).then(function(data) {
       + feature.properties.dst + "</h3>")
     }
   })
-addTo(map);
+.addTo(map);
 });
