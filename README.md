@@ -7,6 +7,6 @@ Completed Earthquake JavaScript File: [Earthquake_Challenge](/Earthquake_Challen
 * Add layers and styling options to provide additional insights and perspectives (e.g. isolate major earthquakes on a dark map)        
   
 ## Sample of Finished Project
-This is an interactive web page that allows end-users to click through the data points.  It empowers end-users to analyze and draw conclusions.  
+This is an interactive web page that allows users to click through the data points.  It empowers them to analyze and draw conclusions.  
   
 ![Earthquakes](/Earthquake_Challenge/images/earthquakes.png "Earthquakes")
