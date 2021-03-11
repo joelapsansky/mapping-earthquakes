@@ -104,10 +104,9 @@ d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geoj
 
     	// We turn each feature into a circleMarker on the map.
     	pointToLayer: function(feature, latlng) {
-
-      		console.log(data);
-      		return L.circleMarker(latlng);
-        },
+      	console.log(data);
+      	return L.circleMarker(latlng);
+      },
 
       // Set the style for each circleMarker using the styleInfo function.
       style: styleInfo,
@@ -170,7 +169,12 @@ d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geoj
       pointToLayer: function(feature, latlng) {
         return L.circleMarker(latlng)
       },
+
+      // Add style.
       style: styleInfo3,
+
+      // Create a popup for each circleMarker to display the magnitude and location of the earthquake
+      //  after the marker has been created and styled.
       onEachFeature: function(feature, layer) {
         layer.bindPopup("Magnitude: " + feature.properties.mag + "<br>Location: " + feature.properties.place);
       }
