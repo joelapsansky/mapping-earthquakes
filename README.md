@@ -9,4 +9,4 @@ Completed Earthquake JavaScript File: [Earthquake_Challenge](/Earthquake_Challen
 ## Sample of Finished Project
 This is an interactive web page that allowes end-users to click and puruse the data.  It empowers users to analyze and draw conclusions.  
   
-![Earthquakes](/Earthquake_Challenge/static/images/earthquakes.png "Earthquakes")
+![Earthquakes](/Earthquake_Challenge/images/earthquakes.png "Earthquakes")
