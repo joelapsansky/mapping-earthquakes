@@ -1,4 +1,5 @@
 # Mapping Earthquakes
+Completed GitHub page: https://joelapsansky.github.io/earthquake-page/  
 Completed Earthquake JavaScript File: [Earthquake_Challenge](/Earthquake_Challenge/static/js/challenge_logic.js)  
   
 ## Overview of Project  
